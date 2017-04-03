@@ -1,0 +1,39 @@
+@media screen and (max-width: 961px) {
+    #home h1 {
+        font-size: 3.5em;
+    }
+
+    #about {
+    	padding: 50px 20px;
+    }
+
+    .about-card {
+    	height: 440px;
+    	margin-bottom: 40px;
+    }
+
+    .about-card-info {
+    	padding: 10px 20px;
+    }
+
+    #interests .col-lg-3 {
+    	margin: 50px 0;
+    }
+
+    .education-box .edu-icon, .education-box .edu-body {
+    	height: 130px !important;
+    }
+
+    .testimony {
+    	margin-top: 10px;
+    }
+
+    #projects {
+    	padding-top: 20px;
+    	padding-bottom: 20px;
+    }
+
+    #projects .section-title {
+    	padding-bottom: 0;
+    }
+}

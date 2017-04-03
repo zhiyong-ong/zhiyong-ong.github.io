@@ -1,0 +1,556 @@
+header, section, footer, aside, nav, main, article, figure {
+    display: block; 
+}
+
+body {
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    line-height: 1.8em;
+    color: #777;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+a:visited, a:focus {
+    outline: none;
+    text-decoration: none !important;
+}
+
+h1, h2, h3, h4 , h5, h6 {
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #333;
+    margin-top: 8px;
+    font-size: 1.5em;
+    letter-spacing: 4px;
+}
+
+h3 {
+    color: #444;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+
+footer {
+	background: url(../images/footer-bg.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+	color: #fff;	
+    padding: 50px 0;
+    position: relative;
+}
+
+footer a, footer a:focus {
+    color: #fff;
+    margin: 0 5px;
+}
+
+footer h3 {
+	color: #ffffff;
+    padding-bottom: 14px;
+}
+
+footer .footer-btn {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    display: inline-block;
+    padding: 15px 20px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    margin-top: 50px;
+    transition-duration: 0.5s;  
+}
+
+footer .footer-btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+footer .link-facebook a:hover {
+    color: #F6C800;
+}
+
+footer .link-linkedin a:hover {
+    color: #F6C800;
+}
+
+footer .link-github a:hover {
+    color: #F6C800;
+}
+
+footer .overlay {
+    left: 0;
+}
+
+#about, #workexperiences, #skills {
+    background-color: #f0f0f0;
+}
+
+#home .overlay, #projects-summary .overlay, footer .overlay, #interests .overlay {
+    background: rgba(03,03,03,0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.about-card:hover, .education-box:hover, .project-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+}
+
+#about {
+	text-align: center;
+	color: #656565;
+    padding: 100px 50px;
+
+}
+
+.about-card {
+    height: 470px;
+    max-width: 360px;
+    margin-right: 10px;
+    overflow: hidden;
+    display: block;
+    border-top: 1px solid #f8f8f8;
+    background: #fff;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+    letter-spacing: 3px;
+    transition: all 0.3s;
+}
+
+.about-description {
+    text-align: left;
+}
+
+.about-description h2 {
+    margin-bottom: 20px;
+}
+
+.about-card-info {
+    padding: 15px 30px;
+}
+
+.about-card-name {
+    font-size: 16px;
+    color: #111;
+}
+
+.about-card-role {
+    font-size: 13px;
+    color: #999;
+}
+
+#skills {
+    text-align: center;
+    color: #656565;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#projects-summary {
+    background: url(../images/proj-bg.jpg) 50% 0 repeat-y fixed;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+}
+
+#projects-summary h1 {
+    font-size: 70px;
+}
+
+#education {
+    background-color: #e0e0e0;
+    text-align: center;
+    position: relative;
+    color: #999;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.education-box {
+    background-color: #ffffff;
+    min-height: 90px;
+    padding: 0;
+    text-align: left;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+}
+
+.education-box .edu-icon {
+    float: left;
+    height: 90px;
+    width: 90px;
+    background-color: #bd2b2b;
+    color: #fff;
+    margin-right: 10px;
+    line-height: 120px;
+    text-align: center;
+}
+
+.edu-body h3 {
+    font-size: 16px;
+    padding-bottom: 0;
+    margin: 5px 0 0 0;
+    color: #bd2b2b;
+}
+
+.edu-body p {
+    margin: 0;
+}
+
+
+.fa-user {
+    float: left;
+    margin-right: 10px;
+}
+
+#home {
+    background-image: url(../images/home.jpg);
+    background-attachment: fixed;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin-top: -50px; 
+    clear: both;
+}
+
+#home h1 {
+    margin-bottom: 50px;
+    font-size: 5em;
+    font-weight: 700;
+    letter-spacing: 15px;
+    color: #ececec;
+    text-transform: uppercase;
+}
+
+#home h4 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.home-btn {
+    background-color: rgb(242, 58, 101);
+    color: #fff;
+    display: inline-block;
+    padding: 15px 20px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+}
+
+.home-btn span {
+    padding: 0 10px;
+}
+
+.home-btn a {
+    color: #fff;
+    transition: all 0.15s linear;
+}
+
+.home-btn a:hover {
+    color: #000;
+}
+
+#interests {
+    padding: 50px 0;
+    position: relative;
+    text-align: center;
+    background: url(../images/interests-bg.jpg) 50% 0 repeat-y fixed;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+.interests-icon {
+    background-color:transparent;
+    border:2px solid #fff;    
+    height:200px;
+    border-radius:50%;
+    width:200px;
+    margin: 0 auto;
+}
+
+.interests-icon i {
+    position: relative;
+    top: 30%;
+    color: #fff;
+}
+
+.interests-info {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.navbar-default {
+	background-color: #ffffff;
+    border: none;
+    box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.04);
+    margin: 0 !important;
+    transition-duration: 0.3s;
+}
+
+.navbar-brand {
+	color: #505050;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.navbar-transparent {
+    background-color: transparent;
+}
+
+.nav > li > a:hover {
+    color: #F9214F !important;
+}
+
+.nav > li > a.active {
+    color: #F9214F !important;
+}
+
+#projects-summary, #contact-form {
+    background-color: #ffffff;
+    padding: 70px 0;
+    text-align: center;
+}
+
+.section-title {
+	padding-bottom: 30px;
+}
+
+#skills h4 {
+    margin: 0;
+}
+
+#skills .progress-label {
+    float: left;
+    margin-right: 1em;
+}
+
+.testimony {
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 50px 20px 20px 20px;
+    position: relative;
+    background-color: #fff;
+}
+
+.testimony .quote-icon {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    right: 0;
+    margin-left: -40px;
+}
+
+.testimony .quote-icon i {
+    font-size: 30px;
+    width: 80px;
+    height: 80px;
+    padding-top: 18px;
+    color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #c0b283;
+    box-shadow: 0px 9px 7px -10px rgba(0, 0, 0, 0.13);
+    border-radius: 50%;
+    border: 7px solid rgba(255, 255, 255, 1);
+}
+
+.testimony .quote {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 17.5px
+}
+
+#workexperiences {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#workexperiences .work-info {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#workexperiences .fa-globe {
+    margin-left: 15px;
+}
+
+#workexperiences .work-description {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: left;
+    padding: 20px;
+    font-size: 16px;
+    margin-left:5px;
+}
+
+.icon-pos {
+    display:inline-block;
+    vertical-align:top;
+}
+
+.text-pos {
+    display:inline-block;
+}
+.project-box {
+    width: 100%;
+    background-color: #ffffff;
+    float: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    display: block;
+    transition: all 0.3s;
+}
+
+.project-header {
+    height:250px;
+    background-position: center center;
+    text-align: center;
+    vertical-align:  middle;
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.project-header img {
+    margin-top: 80px;
+}
+
+.project-info {
+    padding: 20px 30px;
+    font-size: 13px;
+    line-height: 19px;
+    background-color: #ececec;
+}
+
+.project-info h4 {
+    display: inline;
+}
+
+.project-info .fa {
+    margin-right: 5px;
+}
+
+.project-info-description {
+    padding-top: 10px;
+}
+
+#projects {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#projects h2 {
+    text-align: center;
+}
+
+.skillbar {
+    position:relative;
+    display:block;
+    margin-bottom:15px;
+    width:100%;
+    background:#eee;
+    height:35px;
+    border-radius:3px;
+    transition:0.4s linear;
+    transition-property:width, background-color;
+}
+
+.skillbar-title {
+    position:absolute;
+    top:0;
+    left:0;
+    width:170px;
+    font-weight:bold;
+    font-size:13px;
+    color:#ffffff;
+    background:#6adcfa;
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+    display:block;
+    background:rgba(0, 0, 0, 0.1);
+    padding:0 20px;
+    height:35px;
+
+    line-height:35px;
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+    height:35px;
+    width:0px;
+    padding-right: 5px;
+    background:#6adcfa;
+    border-radius:3px;
+}
+
+.skillbar-percent {
+    position:absolute;
+    right:10px;
+    top:0;
+    font-size:11px;
+    height:35px;
+    line-height:35px;
+    color:#ffffff;
+    color:rgba(0, 0, 0, 0.4);
+}
+
+.sub-skills {
+    padding-right: 10px;
+}
+
+.work-exp {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    border-left: 3px solid #c0b283;
+    transition: all 0.3s;
+}
+
+.work-exp:hover {
+     transform: translateY(-10px);
+    box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+}
+
+.work-exp .work-description .fa {
+    color: #c0b283;
+}
+
+.work-info img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#workexperiences strong {
+    color: #c0b283;
+}
