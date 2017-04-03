@@ -80,7 +80,7 @@ function initParallax() {
 }
 
 function initSmoothScroll() {
-    $('.navbar-default a, .home-btn a').bind('click', function(event) {
+    $('.navbar-inverse a, .home-btn a').bind('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top - 49
