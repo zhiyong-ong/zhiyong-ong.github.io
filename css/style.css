@@ -297,12 +297,18 @@ footer .overlay {
     letter-spacing: 2px;
 }
 
-.navbar-default {
-	background-color: #ffffff;
+.navbar-inverse {
     border: none;
     box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.04);
     margin: 0 !important;
     transition-duration: 0.3s;
+    white-space: nowrap;   
+}
+
+@media (max-width: 961px) {
+    .container {
+        max-width: 961px;
+    }
 }
 
 .navbar-brand {
