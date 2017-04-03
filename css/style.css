@@ -305,12 +305,6 @@ footer .overlay {
     white-space: nowrap;   
 }
 
-@media (max-width: 961px) {
-    .container {
-        max-width: 961px;
-    }
-}
-
 .navbar-brand {
 	color: #505050;
     font-size: 28px;
