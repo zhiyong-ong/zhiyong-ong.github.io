@@ -40,7 +40,7 @@ h3 {
 }
 
 footer {
-	background: url(../images/footer-bg.jpg) 50% 0 no-repeat fixed;
+	background: url(../images/footer-bg1.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 	color: #fff;	
     padding: 50px 0;
@@ -157,7 +157,7 @@ footer .overlay {
 }
 
 #projects-summary {
-    background: url(../images/proj-bg.jpg) 50% 0 repeat-y fixed;
+    background: url(../images/proj-bg1.jpg) 50% 0 repeat-y fixed;
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -271,7 +271,7 @@ footer .overlay {
     padding: 50px 0;
     position: relative;
     text-align: center;
-    background: url(../images/interests-bg.jpg) 50% 0 repeat-y fixed;
+    background: url(../images/interests-bg1.jpg) 50% 0 repeat-y fixed;
     background-size: cover;
     background-position: center center;
     color: #fff;
@@ -325,10 +325,16 @@ footer .overlay {
     color: #F9214F !important;
 }
 
-#projects-summary, #contact-form {
+#projects-summary {
     background-color: #ffffff;
     padding: 70px 0;
     text-align: center;
+}
+
+#contact-form {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .section-title {

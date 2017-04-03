@@ -8,8 +8,7 @@
 		<title>Zhi Yong</title>
 		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
 		<!--Bootstrap-->
-		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<!--FontAwesome-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">	<!--FontAwesome-->
 		<link rel="stylesheet" href="css/font-awesome.min.css">
 		<!--Animate-->
 		<link rel="stylesheet" href="css/animate.min.css">
@@ -36,6 +35,7 @@
 						<li><a href="#workexperiences">Work Experiences</a></li>
 						<li><a href="#projects-summary">Projects</a></li>
 						<li><a href="#skills">Skills</a></li>
+						<li><a href="#contact-form">Contact</a></li>
 			      	</ul>
 			    </div>
   			</div>
@@ -198,7 +198,7 @@
 	      					<div class="row">
 	      						<div class="work-info">
 		      						<div class="col-md-3">
-		      							<img src="images/sc.jpeg" class="img-responsive relevant-logo" alt="Standard Chartered" height="150" align="top">
+		      							<img src="images/SC.jpeg" class="img-responsive relevant-logo" alt="Standard Chartered" height="150" align="top">
 		      						</div>
 		      						<div class="col-md-8">
 		      							<h3>Software Engineer Intern - Financial Markets Flow Technology (Expected)</h3>
@@ -520,12 +520,11 @@
 				<div class="section-title">
         			<h2>Contact Me</h2>
   				</div>
-				<div class="row">
+<!-- 				<div class="row">
 				      <div class="col-md-6 col-md-offset-3">
 				        <div class="well well-sm">
-				          <form class="form-horizontal" action="https://formspree.io/zhiyong.ong@u.nus.edu" method="POST">
-				          <fieldset>				    
-				            <!-- Name input-->
+				          <form class="form-horizontal" id="contact_form" action="https://formspree.io/zhiyong.ong@u.nus.edu" method="POST">
+				          <fieldset>				    	
 				            <div class="form-group">
 				              <label class="col-md-3 control-label" for="name">Name</label>
 				              <div class="col-md-9">
@@ -533,15 +532,13 @@
 				              </div>
 				            </div>
 				    
-				            <!-- Email input-->
 				            <div class="form-group">
 				              <label class="col-md-3 control-label" for="email">Your E-mail</label>
 				              <div class="col-md-9">
-				                <input id="email" name="_replyto" type="text" placeholder="Your email" class="form-control">
+				                <input id="_replyto" name="_replyto" type="email" placeholder="Your email" class="form-control">
 				              </div>
 				            </div>
 				    
-				            <!-- Message body -->
 				            <div class="form-group">
 				              <label class="col-md-3 control-label" for="message">Your message</label>
 				              <div class="col-md-9">
@@ -549,9 +546,8 @@
 				              </div>
 				            </div>
 				    
-				            <!-- Form actions -->
 				            <div class="form-group">
-				              <div class="col-md-12 text-right">
+				              <div class="col-md-12 text-middle">
 				                <button type="submit" class="btn btn-primary btn-lg" value="Send">Submit</button>
 				              </div>
 				            </div>
@@ -559,9 +555,55 @@
 				          </form>
 				        </div>
 				      </div>
-					</div>
-				</div>
+					</div> -->
+	      <div class="col-md-6 col-md-offset-3">
+		    <form class="well form-horizontal" action="https://formspree.io/zhiyong.ong@u.nus.edu" method="post" id="contactForm">			
+			<!-- Text input-->
+			<div class="form-group">
+			  <label class="col-md-3 control-label">Name</label> 
+			    <div class="col-md-9 inputGroupContainer">
+			    <div class="input-group">
+			  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+			  <input name="name" placeholder="Your name" class="form-control"  type="text">
+			    </div>
+			  </div>
 			</div>
+
+			<!-- Text input-->
+	       <div class="form-group">
+			  <label class="col-md-3 control-label">E-Mail</label>  
+			    <div class="col-md-9 inputGroupContainer">
+			    <div class="input-group">
+			        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+			  <input name="_replyto" placeholder="Your E-Mail Address" class="form-control" type="email">
+			    </div>
+			  </div>
+			</div>
+
+
+			  
+			<div class="form-group">
+			  <label class="col-md-3 control-label">Message</label>
+			    <div class="col-md-9 inputGroupContainer">
+			    <div class="input-group">
+			        <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+			        	<textarea class="form-control" name="message" placeholder="Your Message" rows="7"></textarea>
+			  </div>
+			  </div>
+			</div>
+
+			<!-- Button -->
+			<div class="form-group">
+			  <label class="col-md-4 control-label"></label>
+			  <div class="col-md-4">
+			    <button type="submit" class="btn btn-primary" >Send <span class="glyphicon glyphicon-send"></span></button>
+			  </div>
+			</div>
+
+			</form>
+			</div>
+		</div>
+			
 		</section>
 		<!--Footer-->
 
