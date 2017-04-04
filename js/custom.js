@@ -1,6 +1,6 @@
 $(document).ready(function() {
     offset = 0;    
-    $('.navbar-inverse').addClass("navbar-transparent");
+    //$('.navbar-inverse').addClass("navbar-transparent");
     
     // Parallax disabled for mobile screens
     if ($(window).width() > 961) {
@@ -10,7 +10,7 @@ $(document).ready(function() {
     
     initCountNbr();
     initSmoothScroll();
-    initSticky();
+    //initSticky();
     initWaypoints();
     
 });
@@ -19,11 +19,11 @@ $(document).ready(function() {
 
 
 $(window).scroll(function(){
-    if($(window).scrollTop() <= 50) {
-       $('.navbar-inverse').addClass("navbar-transparent");
-    } else {
-        $('.navbar-inverse').removeClass("navbar-transparent");
-    }
+    // if($(window).scrollTop() <= 50) {
+    //    $('.navbar-inverse').addClass("navbar-transparent");
+    // } else {
+    //     $('.navbar-inverse').removeClass("navbar-transparent");
+    // }
 
     // Get the current vertical position of the scroll bar
     position = $(this).scrollTop();
