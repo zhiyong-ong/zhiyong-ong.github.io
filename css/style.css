@@ -115,7 +115,7 @@ footer .overlay {
 }
 
 .about-card {
-    height: 470px;
+    
     max-width: 360px;
     margin-right: 10px;
     overflow: hidden;
@@ -553,9 +553,15 @@ footer .overlay {
     color: #c0b283;
 }
 
+.long-logo {
+    height:130px !important;
+    padding-top: 50px !important;
+}
+
 .work-info img {
     padding-top: 10px;
     padding-bottom: 10px;
+    height: 150px;
 }
 
 #workexperiences strong {
