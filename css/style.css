@@ -324,6 +324,10 @@ footer .overlay {
     color: #F9214F !important;
 }
 
+.nav {
+    display: flex;
+}
+
 #projects-summary {
     background-color: #ffffff;
     padding: 70px 0;
