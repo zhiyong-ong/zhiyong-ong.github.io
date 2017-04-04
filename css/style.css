@@ -99,6 +99,7 @@ footer .overlay {
     width: 100%;
     height: 100%;
     position: absolute;
+    top:0;
 }
 
 .about-card:hover, .education-box:hover, .project-box:hover {
@@ -114,7 +115,7 @@ footer .overlay {
 }
 
 .about-card {
-    
+    max-height: 340px;
     max-width: 360px;
     margin-right: 10px;
     overflow: hidden;
@@ -124,6 +125,10 @@ footer .overlay {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
     letter-spacing: 3px;
     transition: all 0.3s;
+}
+
+.about-card img {
+    max-height: 250px;
 }
 
 .about-description {
@@ -147,6 +152,8 @@ footer .overlay {
     font-size: 13px;
     color: #999;
 }
+
+
 
 #skills {
     text-align: center;
@@ -226,7 +233,7 @@ footer .overlay {
     text-align: center;
     align-items: center;
     display: flex;
-    margin-top: -50px; 
+    margin-top: 0px; 
     clear: both;
 }
 
