@@ -1,4 +1,4 @@
-@media screen and (max-width: 961px) {
+@media screen and (max-width: 991px) {
     #home h1 {
         font-size: 3.5em;
     }
@@ -20,8 +20,12 @@
     	margin: 50px 0;
     }
 
+    .education-box {
+        height: 150px !important;
+    }
+
     .education-box .edu-icon, .education-box .edu-body {
-    	height: 130px !important;
+    	height: 150px !important;
     }
 
     .testimony {
@@ -35,5 +39,39 @@
 
     #projects .section-title {
     	padding-bottom: 0;
+    }
+
+    .long-logo {
+        height:130px !important;
+        padding-top: 20px !important;
+    }
+
+    .col-centered {
+        display:inline-block;
+        float:none;
+        /* reset the text-align */
+        text-align:left;
+        /* inline-block space fix */
+        margin-right:-4px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .education-box {
+        height: 180px !important;
+    }
+
+    .education-box .edu-icon, .education-box .edu-body {
+        height: 180px !important;
+    }
+}
+
+@media screen and (max-width: 352px) {
+    .education-box {
+        height: 230px !important;
+    }
+
+    .education-box .edu-icon, .education-box .edu-body {
+        height: 230px !important;
     }
 }

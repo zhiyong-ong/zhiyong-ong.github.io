@@ -40,7 +40,7 @@ h3 {
 }
 
 footer {
-	background: url(../images/footer-bg1.jpg) 50% 0 no-repeat fixed;
+	background: url(../images/footer-bg2.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 	color: #fff;	
     padding: 50px 0;
@@ -94,12 +94,21 @@ footer .overlay {
     background-color: #f0f0f0;
 }
 
-#home .overlay, #projects-summary .overlay, footer .overlay, #interests .overlay {
-    background: rgba(03,03,03,0.6);
+#projects-summary .overlay, footer .overlay, #interests .overlay {
+    background: rgba(64, 64, 64, 0.64);
     width: 100%;
     height: 100%;
     position: absolute;
     top:0;
+}
+
+#home .overlay {
+    background: rgba(41, 41, 41, 0.71);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+}
 }
 
 .about-card:hover, .education-box:hover, .project-box:hover {
@@ -115,7 +124,7 @@ footer .overlay {
 }
 
 .about-card {
-    max-height: 340px;
+    max-height: 370px;
     max-width: 360px;
     margin-right: 10px;
     overflow: hidden;
@@ -189,6 +198,7 @@ footer .overlay {
 .education-box {
     background-color: #ffffff;
     min-height: 90px;
+    height: 130px;
     padding: 0;
     text-align: left;
     box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
@@ -197,9 +207,9 @@ footer .overlay {
 
 .education-box .edu-icon {
     float: left;
-    height: 90px;
+    height: 130px;
     width: 90px;
-    background-color: #bd2b2b;
+    background-color: #0E49AB;
     color: #fff;
     margin-right: 10px;
     line-height: 120px;
@@ -210,11 +220,13 @@ footer .overlay {
     font-size: 16px;
     padding-bottom: 0;
     margin: 5px 0 0 0;
-    color: #bd2b2b;
+    color: #0C3A86;
 }
 
 .edu-body p {
     margin: 0;
+    color: #545454;
+    font-weight: bold;
 }
 
 
@@ -224,7 +236,7 @@ footer .overlay {
 }
 
 #home {
-    background-image: url(../images/home.jpg);
+    background-image: url(../images/home1.JPG);
     background-attachment: fixed;
     background-position: 50%;
     background-size: cover;
@@ -551,7 +563,7 @@ footer .overlay {
 }
 
 .work-exp:hover {
-     transform: translateY(-10px);
+    transform: translateY(-10px);
     box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
 }
 
@@ -561,7 +573,7 @@ footer .overlay {
 
 .long-logo {
     height:130px !important;
-    padding-top: 50px !important;
+    padding-top: 45px !important;
 }
 
 .work-info img {
