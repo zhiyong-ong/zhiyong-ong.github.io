@@ -47,9 +47,9 @@
     }
 
     section {
-       background-attachment:initial;
+       background-attachment: initial !important;
     } 
-    
+
     .col-centered {
         display:inline-block;
         float:none;
