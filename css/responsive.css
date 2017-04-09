@@ -46,6 +46,10 @@
         padding-top: 20px !important;
     }
 
+    section {
+       background-attachment:initial;
+    } 
+    
     .col-centered {
         display:inline-block;
         float:none;
