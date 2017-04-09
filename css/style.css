@@ -47,9 +47,13 @@ footer {
     position: relative;
 }
 
-footer a, footer a:focus {
+footer a {
     color: #fff;
     margin: 0 5px;
+}
+
+footer a:focus {
+    color: #fff;
 }
 
 footer h3 {
